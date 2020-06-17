@@ -1,0 +1,9 @@
+server.port: 8090
+publisher:
+  queue:
+    name: playerTwoQueue
+listener:
+  queue:
+    name: playerOneQueue
+activemq:
+  broker-url: tcp://localhost:61616
